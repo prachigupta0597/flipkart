@@ -1,0 +1,401 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+     <header>
+	
+	
+<nav class="navbar navbar-expand-xl bg-primary navbar-dark">
+    <!-- Brand/logo -->
+  <a class="navbar-brand" href="main.html">
+    <img src="logo.png"  style="width:40px;">
+  </a>
+    <a class="navbar-brand" href="main.html"><i>Flipkart</i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" size="50" placeholder="Search" aria-label="Search">
+      <button class="btn btn-warning my-2 my-sm-0" type="submit">Search</button>
+    </form>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+        <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+      </li>
+      
+      <li class="nav-item">
+          <a class="nav-link" href="#">
+              <!-- Button to Open the Modal -->
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    
+  Login & signup</button>
+              
+      <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+            <h4 class="modal-title"><font color="blue"> Login</font></h4>
+
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+            <form>
+            <font size="3" color="black">Username</font><br>
+            <input type="text" name="t1" size="40"><br>
+            <font size="3" color="black">Password</font><br>
+            <input type="text" name="t2"size="40"><br><br>
+            <input type="submit" value="login"></form>
+            <br><br>
+            <font color="blue">  New to Flipkart?Create an account</font>
+        </div>
+      
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+        </div> 
+               
+      </div>
+    </div>
+  </div>
+    
+              
+              
+              
+              
+              </a>
+          </li>
+      
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toogle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-baspopup="true" aria-expanded="false">
+<button type="button" class="btn btn-primary" data-toggle="modal"> More</button>
+        
+</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Sell on Flipkart</a>
+          <a class="dropdown-item" href="#">24 x customer care</a>
+          
+          <a class="dropdown-item" href="#">Advertise</a>
+        </div>  
+      </li>
+      
+       <li class="nav-item">
+<a class="nav-link" href="#"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Cart</button></a>
+      </li>
+    
+  </div>
+</nav>
+
+    
+    
+    
+    
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        
+   <div class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Electronics
+        </a>
+   
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Accessories</a>
+          <a class="dropdown-item" href="#">Laptops</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Mobiles</a>
+        </div>
+   </div>   
+      
+      <div class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Tv & Appliances
+        </a>
+      
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Television</a>
+          <a class="dropdown-item" href="#">Washing Machine</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Kitchen Appliances</a>
+        </div>
+      
+      </div>
+        
+        
+
+
+    <div class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Men
+        </a>
+      
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Clothing</a>
+          <a class="dropdown-item" href="#">Footware</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Watches</a>
+        </div>
+      
+      </div>
+        
+    <div class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Women
+        </a>
+      
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Footware</a>
+          <a class="dropdown-item" href="#">Clothing</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Watches</a>
+        </div>
+      
+      </div>
+        
+        
+<div class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Tv & Appliances
+        </a>
+      
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Television</a>
+          <a class="dropdown-item" href="#">Washing Machine</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Kitchen Appliances</a>
+        </div>
+      
+      </div>
+        
+        
+<div class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Baby & Kids
+        </a>
+      
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Baby Care</a>
+          <a class="dropdown-item" href="#">toys</a>
+          <div class="dropdown-divider"></div>
+          
+        </div>
+      
+      </div>
+        
+        <div class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Tv & Appliances
+        </a>
+      
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Kitchen storage</a>
+          <a class="dropdown-item" href="#">Furniture</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Home Decor</a>
+        </div>
+      
+      </div>
+        
+
+        <div class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Sports,Books & More
+        </a>
+      
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Sports</a>
+          <a class="dropdown-item" href="#">Books</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Medical supplies</a>
+        </div>
+      
+      </div>
+        
+<div class="nav-item">
+        <a class="nav-link" href="#">Grocery</a>
+      </div>
+
+        <div class="nav-item">
+        <a class="nav-link" href="#">Offer zone</a>
+      </div>    
+</nav>
+    
+    <table height="50%" width="100%" border="2">
+        
+        <tr>
+            <td>
+                <img src="mixi.jpeg" height="250" width="300">
+            </td>
+         <td><a href="mixer.html"><font size="3" bgcolor="black">
+                 <b>Philips HL7710 /00 600 W Mixer Grinder  (Red, White, 3 Jars)#JustHere</b></font><br><br>
+                    <font bgcolor="gray">
+                    : Mixer Grinder<br>
+                    : 600 W<br>
+                    : 3 Jars<br>
+                    : 2 years Manifacture Warrenty<br>
+                    : Smooth to use </font></a></td>
+            <td>
+                <img src="rupees.png" hieght="20" width="20">
+                <font size="6"><b>2,599</b></font><br>
+        <img src="rupees.png" hieght="20" width="20"> <strike>
+            <font bgcolor="gray">3,955</font></strike>
+        <font color="#00FF00">34% off</font><br>
+        EMI Starting from <img src="rupees.png" hieght="20" width="20"><b>500/month</b><br><br><br>
+        
+        <font color="#00FF00">Offers</font><br>
+        : No Cost EMI<br>
+        : Bank Offer
+        
+        
+            </td>
+        </tr>
+
+                <tr>
+            <td><br><br>
+                <img src="toaster.jpeg" height="250" width="350">
+            </td>
+            <td><font size="3" bgcolor="black"><b>Impex ELECTRIC GRILL PEG 3.0 Grill <br>
+                    </b></font><br>                  <font bgcolor="gray">
+                    : Superior Non-stick Coating<br>
+                    : Floating Hinge Design<br>
+                    : Prepare healthy and tasty grilled sandwiches without using too much oil<br>
+                    : This makes it safe and comfortable to use.<br>
+                     </font></td>
+            <td>
+                <img src="rupees.png" hieght="20" width="20">
+                <font size="6"><b>1,639</b></font><br>
+        <img src="rupees.png" hieght="20" width="20"> <strike>
+            <font bgcolor="gray">2,899</font></strike>
+        <font color="#00FF00">28% off</font><br>
+        EMI Starting from <img src="rupees.png" hieght="20" width="20"><b>229/month</b><br><br><br>
+        
+        <font color="#00FF00">Offers</font><br>
+        : No Cost EMI<br>
+        : Bank Offer
+        
+        
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <a href="terms1.html"><img src="gas.jpeg" height="250" width="300"></a>
+            </td>
+         <td><font size="3" bgcolor="black">
+             <a href="stove.html"> <b>Prestige Ultra Glass, Stainless Steel Manual Gas Stove  (4 Burners)#JustHere</b></font><br><br>
+                    <font bgcolor="gray"><br>
+                    : Type: Manual Gas Stove<br>
+                    : Burner Type: High Powered Brass Burne<br>
+                    : Number of Burners: 4<br>
+                    : Body Material: Glass, Stainless Steel<br>
+                    : 2 Years Warranty </a></font></td>
+            <td>
+                <img src="rupees.png" hieght="20" width="20">
+                <font size="6"><b>2,999</b></font><br>
+        <img src="rupees.png" hieght="20" width="20"> <strike>
+            <font bgcolor="gray">7,499</font></strike>
+        <font color="#00FF00">59% off</font><br>
+        EMI Starting from <img src="rupees.png" hieght="20" width="20"><b>500/month</b><br><br><br>
+        
+        <font color="#00FF00">Offers</font><br>
+        : No Cost EMI<br>
+        : Bank Offer
+        
+        
+            </td>
+        </tr>
+            
+              
+            
+       
+    </table>
+    
+         
+         
+                     <div class="table-responsive">
+              
+  <table class="table table-borderless xl table-dark">
+      <tr><th><a href="about.html">About</a></th>
+      <th>Help</th>
+      <th>Policy</th>
+      <th>Social</th>
+      <th>Mail Us:</th>
+      <th>Registered Office Address:</tr>
+      
+      <tr>
+          <td>
+              <font size="2">Contact Us<Br>
+         <a href="about.html">   About Us</a><br>
+            Flipkart Stories<br>
+            Press</td><font>
+        <td>
+            <font size="2">Payment<br>
+              Shipping<br>
+              Cancellation & Return<br>
+              FAQ<br>
+              Report Infringment</td></font>
+        
+        <td>
+           <font size="2">Return Policy<br>
+            Terms of uses<br>
+            Security<br>
+            Privacy<br>
+            Sitemap<br>
+            EPR compliance</td></font>
+        <td width="15%">
+           <font size="2">Facebook<br>
+            Twitter<br>
+            YouTube</font></td>
+        <td width="20%">
+            <font size="2"> Flipkart Internet Private Limited,<br>Buildings Alyssa, Begonia &<br>
+            Clove Embassy Tech Village,<br>
+            Outer Ring Road, Devarabeesanahalli Village,<br>
+            Bengaluru, 560103,<br>
+            Karnataka, India.</font></td>
+        
+        <td width="20%">
+            <font size="2">Flipkart Internet Private Limited,<br>
+            Buildings Alyssa, Begonia &<br>
+            Clove Embassy Tech Village,<br>
+            Outer Ring Road, Devarabeesanahalli Village,<br>
+            Bengaluru, 560103,<br>
+            Karnataka, India<br>
+            CIN : U51109KA2012PTC066107<br>
+            Telephone: </font><font color="blue">1800 208 9898</font><br>
+            <font size="2">Sell On Flipkart</font></td>
+        
+        
+      </tr>
+      
+  </table>
+</div>
+
+			
+
+    
+         
+         
+         
+         
+         
+    </body>
+</html>
